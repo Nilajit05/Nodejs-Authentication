@@ -6,11 +6,11 @@ const User = require('../models/User');
 // tell passport to use new stretegy for google login
 
 passport.use(new googleStretegy({
-        clientID: '1013957754657-hrliujfptakjeai37oqa67h1kqbo9veg.apps.googleusercontent.com',
+        clientID: '',
 
-        clientSecret: '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',
+        clientSecret: '',
 
-        callbackURL: 'http://localhost:8000/auth/google/callback',
+        callbackURL: '',
         passReqToCallback: true,
 
     },
